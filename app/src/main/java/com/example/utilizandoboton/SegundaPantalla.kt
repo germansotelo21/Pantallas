@@ -22,7 +22,7 @@ class SegundaPantalla : AppCompatActivity() {
         val bundle =intent.extras
         val name =bundle?.get("INTENT_NAME")
         val fechaView = findViewById<TextView>(R.id.TvSegundaPantalla)
-        fechaView.text = "Bienvenido  siempre saludos desde mi Pc este cambio esta ok$name"
+        fechaView.text = "Bienvenido desde cabecera$name"
 
     }
 }
